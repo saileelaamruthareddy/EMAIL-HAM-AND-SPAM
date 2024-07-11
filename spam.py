@@ -5,11 +5,11 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Display title
-image_path = (r"C:\Users\saile\OneDrive\Desktop\inomatics .png")  # Replace with your actual PNG image file path
+image_path = (inomatics .png'rb')  # Replace with your actual PNG image file path
 
 # Display the PNG image
 st.image(image_path)
-spam_image_path = (r"C:\Users\saile\OneDrive\Desktop\spam .png")  # Replace with your actual PNG image file path for spam
+spam_image_path = (spam .png'rb')  # Replace with your actual PNG image file path for spam
 st.title("Predicting Email Spam or Ham")
 
 
